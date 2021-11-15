@@ -10,6 +10,7 @@ import SocialMediaArrow from '../assets/images/social-media-arrow.svg';
 
 
 const HeroStyles = styled.div`
+
   .hero {
     height: 780px;
     width: 100%;
@@ -60,7 +61,7 @@ const HeroStyles = styled.div`
     left: 25rem;
     top: -100%;
     }
-  } 
+  
    .aboutSection__button {
     display: flex;
     
@@ -109,7 +110,7 @@ const HeroStyles = styled.div`
     flex-direction: column;
     gap: 2rem;
 
-
+  }
   .hero__social__indicator,
   .hero__scrollDown {
     width: 50px;
@@ -136,8 +137,8 @@ const HeroStyles = styled.div`
   }
 
 
+
   
-  }
   @media only screen and (max-width: 900px) {
     .hero {
       min-height: 600px;
@@ -202,7 +203,7 @@ const HeroStyles = styled.div`
     left: -30%;
     top: 30%;
    
-  }
+  }}
 
     @media only screen and (max-width: 780px) {
       .hero__heading {
@@ -244,7 +245,7 @@ const HeroStyles = styled.div`
     
       
     }
-
+  }
     @media only screen and (max-width: 490px) {
       .hero__heading {
         font-size:2rem;
@@ -297,6 +298,7 @@ const HeroStyles = styled.div`
   } 
   }
 `;
+
 
 export default function HeroSection() {
   return (
